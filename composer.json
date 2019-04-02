@@ -1,0 +1,30 @@
+{
+    "name": "woisks/framework",
+    "description": "The woisks Framework.",
+    "authors": [
+        {
+            "name": "Maple Grove",
+            "email": "woisks@126.com"
+        }
+    ],
+    "require": {},
+    "replace": {
+        "woisks/jwt": "self.version",
+        "woisks/throttle": "self.version"
+    },
+    "autoload": {
+        "psr-4": {
+            "Woisks\\": "src/woisks/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
